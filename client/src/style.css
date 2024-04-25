@@ -1,0 +1,62 @@
+body {
+  padding: 3em;
+  overflow: hidden;
+}
+
+.task-form {
+  display: flex;
+}
+
+.todo-list {
+  flex: 1;
+  padding-bottom: 1em;
+  overflow: auto;
+}
+
+.login-form {
+  background-color:#f3f3f3;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
+  border-radius: 15px;
+  padding: 1em;
+}
+
+h3 {
+  padding-left: 1em;
+  padding-right: 1em;
+}
+
+.btn-custom {
+  background-color: #1877f2;
+  border: none;
+  color: #fff;
+  height: 3em;
+  width: 100%;
+}
+
+input {
+  height: 52px;
+  font-size: 18px !important;
+  color: #e8e8e8;
+}
+
+.tasks-app {
+  background-color:#f3f3f3;
+  border: rgba(0, 0, 0, 0.1) solid 2px;
+  border-radius: 15px;
+  margin: 5em;
+  padding-top: 2em;
+}
+
+.tasks-heading {
+  display: flex;
+  flex-direction: row;
+}
+
+.error-message {
+  color: red;
+}
+
+.finished {
+  text-decoration: line-through;
+  color: green;
+}
