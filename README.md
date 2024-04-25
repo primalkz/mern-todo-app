@@ -24,6 +24,11 @@
 
 ![screenshot](https://raw.githubusercontent.com/primalkz/mern-todo-app/main/assets/output.gif)
 
+<details>
+<summary>Features Video (tap to expand)</summary>
+<img src="assets/output.mp4"/ width="800px">
+</details>
+
 ## Live Website
 
 You can check out by going on this [link](https://todo2app.onrender.com/).
