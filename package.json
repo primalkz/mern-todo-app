@@ -10,7 +10,7 @@
     "dev": "node_modules/.bin/concurrently \"npm run client\" \"npm run server\"",
     "install-client": "npm install && cd client && npm install",
     "build": "cd client && npm run build",
-    "postbuild": "npm run install-client",
+    "postbuild": "npm run install-client && npm run build",
     "start": "node server.js"
   },
   "keywords": [],
