@@ -3,10 +3,14 @@ import axios from "axios";
 // in .env: REACT_APP_API_GATEWAY_TASKS_URL="http://localhost:3001/api/tasks"
 // .........REACT_APP_API_GATEWAY_AUTHENTICATION_URL="http://localhost:3001/api/user"
 const API_GATEWAY_TASKS_URL =
-  process.env.REACT_APP_API_GATEWAY_TASKS_URL || "http://localhost:3001";
+//  process.env.REACT_APP_API_GATEWAY_TASKS_URL || "http://localhost:3001";
+    process.env.REACT_APP_API_GATEWAY_TASKS_URL || "https://mern-todo-app-0dq1.onrender.com:3001";
+
 const API_GATEWAY_AUTHENTICATION_URL =
+//  process.env.REACT_APP_API_GATEWAY_AUTHENTICATION_URL ||
+//  "http://localhost:3001";
   process.env.REACT_APP_API_GATEWAY_AUTHENTICATION_URL ||
-  "http://localhost:3001";
+  "https://mern-todo-app-0dq1.onrender.com:3001";
 
 // CREATE
 export function createTask(token, newTask) {
