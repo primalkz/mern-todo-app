@@ -2,8 +2,8 @@ express = require("express");
 mongoose = require("mongoose");
 const axios = require("axios");
 
-const TASKS_API_URL = process.env.TASKS_API_URL || "https://mern-todo-app-0dq1.onrender.com:5000";
-//const TASKS_API_URL = process.env.TASKS_API_URL || "http://localhost:5000";
+//const TASKS_API_URL = process.env.TASKS_API_URL || "https://mern-todo-app-0dq1.onrender.com:5000";
+const TASKS_API_URL = process.env.TASKS_API_URL || "http://localhost:5000";
 
 
 // CREATE
