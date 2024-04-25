@@ -18,6 +18,7 @@
   <a href="#live-website">Live Website</a> •
   <a href="#key-features">Key Features</a> •
   <a href="#how-to-run">How To Run</a> •
+  <a href="#configuration">Configuration</a> •
   <a href="#credits">Credits</a> •
   <a href="#license">License</a>
 </p>
@@ -46,7 +47,7 @@ You can check out by going on this [link](https://todo2app.onrender.com/).
 * Fast and scalable with mongodb
 * Cross platform
 
-## How To Use
+## How To Run
 
 To clone and run this application, you'll need [Git](https://git-scm.com) and [Node.js](https://nodejs.org/en/download/) (which comes with [npm](http://npmjs.com)) installed on your computer. From your command line:
 
@@ -62,6 +63,15 @@ $ npm run postbuild
 
 # Run the app
 $ npm run dev
+```
+
+## Configuration
+Create ```.env``` file inside ```./``` directory and copy the following code
+
+```
+MONGO_URI=Your mongodb URI
+PORT=5000
+JWT_SECRET=a random secret key eg. secretkey
 ```
 
 ## Technology used
