@@ -68,6 +68,7 @@ This software uses the following open source packages:
 - [React](https://react.dev/)
 - [Express.js](https://expressjs.com/)
 - [Render](https://render.com/)
+- [TODO logo](https://www.logoai.com/)
 
 ## License
 
