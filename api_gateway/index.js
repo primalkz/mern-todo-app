@@ -22,8 +22,8 @@ app.use("/api/user", authRoutes);
 app.use("/api/tasks", verifyToken, tasksRoutes);
 app.use("/api/verify", verifyToken);
 
-//const MONGO_URI = process.env.MONGO_URI;
-const MONGO_URI = "mongodb://localhost:27017/db";
+const MONGO_URI = process.env.MONGO_URI;
+//const MONGO_URI = "mongodb://localhost:27017/db";
 const PORT = process.env.PORT || 3001;
 //const PORT = 27017;
 mongoose

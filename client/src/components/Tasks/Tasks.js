@@ -50,7 +50,7 @@ const Tasks = ({ token, username }) => {
       <div className="container tasks-container">
         <div className="row align-items-center justify-content-center vh-100">
           <div className="tasks-heading col-md-5">
-            <h3>Welcome to your tasks, {username}</h3>
+            <h3>Welcome to your todo list, {username}</h3>
             <button className="btn btn-success" onClick={logout}>
               Logout
             </button>
@@ -64,7 +64,7 @@ const Tasks = ({ token, username }) => {
               autoComplete="off"
             >
               <h4 className="mb-5 text-center">
-                Click on a task to cross it out
+                Click/Tap on a task to <b>cross</b> it out
               </h4>
               <div className="form-group task-form">
                 <input

@@ -1,3 +1,12 @@
+@font-face {
+  font-family: 'CustomFont';
+  src: url('./ClearSans-Medium.ttf') format('ttf'),
+}
+
+*{
+  font-family: 'CustomFont', sans-serif;
+}
+
 body {
   padding: 3em;
   overflow: hidden;

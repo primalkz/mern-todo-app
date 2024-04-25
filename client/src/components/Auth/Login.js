@@ -41,10 +41,10 @@ const Login = ({ updateToken, updateUsername }) => {
               autoComplete="off"
             >
               <div className="text-center pt-3 pb-3">
-                <h1>Taskbook</h1>
+                <h1>TodoApp</h1>
 
                 <h3>
-                  Taskbook helps you keep track of and complete the tasks in
+                  This todo list app helps you keep track of and complete the tasks in
                   your life.
                 </h3>
               </div>
