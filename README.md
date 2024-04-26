@@ -34,6 +34,10 @@
 
 You can check out by going on this [link](https://todo2app.onrender.com/).
 
+> **Note**
+> If you're using for trying it out, use `demo@gmail.com` as email and `demo123` as password, password lower than 6 characters is not allowed.
+
+
 ## Key Features
 
 * Users can create new tasks.
@@ -50,6 +54,9 @@ You can check out by going on this [link](https://todo2app.onrender.com/).
 ## How To Run
 
 To clone and run this application, you'll need [Git](https://git-scm.com) and [Node.js](https://nodejs.org/en/download/) (which comes with [npm](http://npmjs.com)) installed on your computer. From your command line:
+
+> **Note**
+> If you're using for trying it out, use `demo@gmail.com` as email and `demo123` as password, password lower than 6 characters is not allowed.
 
 ```bash
 # Clone this repository
