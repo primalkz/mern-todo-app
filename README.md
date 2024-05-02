@@ -32,7 +32,7 @@
 
 ## Live Website
 
-You can check out by going on this [link](https://todo2app.onrender.com/).
+You can check out by going on this [link](https://todo2app.onrender.com/) deployed over render.
 
 > **Note**
 > If you're using for trying it out, use `demo@gmail.com` as email and `demo123` as password, password lower than 6 characters is not allowed.
